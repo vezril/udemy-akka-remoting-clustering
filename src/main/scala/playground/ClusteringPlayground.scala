@@ -14,8 +14,7 @@ import com.typesafe.config.ConfigFactory
 object ClusteringPlayground extends App {
 
   def startNode(port: Int) = {
-    val config = ConfigFactory.parseString(
-      s"""
+    val config = ConfigFactory.parseString(s"""
          |akka {
          |  actor {
          |    provider = cluster

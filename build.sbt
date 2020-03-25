@@ -2,7 +2,7 @@ name := "udemy-akka-remoting-clustering"
 
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.4"
 
 lazy val akkaVersion = "2.5.21"
 lazy val protobufVersion = "3.6.1"
